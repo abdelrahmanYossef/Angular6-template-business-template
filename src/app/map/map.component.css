@@ -1,0 +1,30 @@
+
+.go_map
+{
+	background-color: #fff;
+}
+
+.go_map textarea:focus, input:focus
+{
+	outline: none;
+	border: 2px solid #000 !important;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+	border-radius: none !important;
+}
+
+.sub_btn
+{
+	width: 140px;
+	height: 50px;
+	background-color: #00c3da;
+	border: 1px solid #00c3da;
+	border-radius: 3px;
+	color: #fff;
+	margin-top: 15px;
+	opacity: 1;
+	transition: all .2s;
+	font-size: 12px;
+	font-weight: 700;
+}

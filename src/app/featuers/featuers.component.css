@@ -1,0 +1,108 @@
+
+
+.second_section
+{
+	margin-top: 100px;
+}
+
+
+.second_section .section_header .auto_type
+{
+	color: #00c3da;
+}
+
+.second_section .section_header h6
+{
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 35px;
+}
+
+.second_section .section_header h3
+{
+	font-weight: 400;
+	color: #989898;
+	font-size: 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 35px;
+	margin-bottom: 50px;
+}
+
+.second_section .section_header .header_btn
+{
+	width: 127px;
+	height: 50px;
+	background-color: transparent;
+	border: 1px solid rgba(0,0,0,0.2);
+	font-size: 12px;
+	margin-bottom: 100px;
+	transition: all .5s;
+}
+
+.second_section .section_header .header_btn:hover
+{
+	
+	background-color: black;
+	color: #fff;
+	transition: all .5s;
+}
+
+/*-------------------*/
+
+.cont
+{
+	/*margin-left: 90px;*/
+	margin-right: 0;
+}
+
+.cont img
+{
+	height: 600px;
+	width: 100%;
+}
+
+.cont .tabs_section
+{
+	margin-top: 100px;
+}
+
+.cont .tabs_section p
+{
+	color: #989898;
+}
+
+.tab_nav
+{
+	margin-bottom: 50px;
+}
+
+.tab_nav .active
+{
+	border-bottom: 1px solid #000;
+	transition: all 1s;
+}
+
+.tab_nav a
+{
+	color: #000;
+	font-size: 12px;
+	letter-spacing: 1px;
+	transition: all 1s;
+}
+
+.tabs_btn
+{
+	width: 127px;
+	height: 50px;
+	background-color: transparent;
+	border: 1px solid rgba(0,0,0,0.2);
+	font-size: 12px;
+	margin-bottom: 100px;
+	transition: all .5s;
+}
+
+.tabs_btn:hover
+{
+	background-color: black;
+	color: #fff;
+	transition: all .5s;
+}

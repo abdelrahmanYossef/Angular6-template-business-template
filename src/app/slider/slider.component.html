@@ -1,0 +1,57 @@
+
+
+<section class="slider">
+        <div class="text-center m-auto w-50">
+            <p style="font-size: 14px; font-weight: 600;">HAPPY CUSTOMERS</p>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 text-center my-auto">
+                    <div class="left prev">
+                        <i class="fas fa-arrow-left" (click)="slickModal.slickPrev()"></i>
+                    </div>
+                </div>
+                <div class="col-md-8 slider_box text-center">
+                        <ngx-slick-carousel class="carousel" 
+                        #slickModal="slick-carousel" 
+                        [config]="slideConfig">
+                            <div ngxSlickItem class="slide">
+                                <img  [ngStyle]= "{ 'background-image': 'url(' + photo + ')' }" alt="" width="100%">
+                                <h4>Marissa Mayer</h4>
+                                    <label>CEO, Yahoo</label>
+                                    <p>Quo rem cumque facere modi beatae. Deleniti nisi, repellat quae aspernatur 
+                                    consequatur consequuntur, fugit asperiores delectus beatae. Quae veniam, quidem 
+                                    cupiditate quia? Ut iste deleniti.</p>
+                            </div>
+                            <div ngxSlickItem class="slide">
+                                    <img [ngStyle]= "{ 'background-image' : 'url(' + photo2 + ')' }" alt="" width="100%">
+                                    <h4>Mark Zuckerberg</h4>
+                                    <label>Founder & CEO, Facebook</label>
+                                    <p>Consectetur adipisicing elit. Perspiciatis aperiam quaerat iure veritatis
+                                    fugit debitis, repellat aut accusantium culpa ipsum ex ipsa blanditiis recusandae,
+                                    sit similique, eius assumenda porro pariatur.</p>
+                            </div>
+                         </ngx-slick-carousel>
+                    
+                </div>
+                <div class="col-md-2 text-center my-auto ">
+                    <div class="left next">
+                        <i class="fas fa-arrow-right" (click)="slickModal.slickNext()"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+
+
+
+
+
+    <!-- <button (click)="addSlide()">Add</button>
+    <button (click)="removeSlide()">Remove</button>
+    <button (click)="slickModal.slickNext()">next</button>
+    <button (click)="slickModal.slickPrev()">prev</button> -->

@@ -1,0 +1,112 @@
+
+.prices
+{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	background-color:#f7f7f7;
+}
+
+
+.prices .team_header h2
+{
+	font-size: 38px;
+	font-weight: 700;
+}
+
+.prices .team_header p
+{
+	color: #989898;
+	margin-bottom: 70px;
+}
+
+.prices .prices_card .col-md-12
+{
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.05);
+    transition: all .5s;
+}
+
+.prices .prices_card:hover .col-md-12
+{
+    box-shadow: 0 0 40px rgba(0, 0, 0, .15);
+    transition: all .5s;
+}
+
+.prices .prices_card .dollar
+{
+	width: 50%;
+	height: 70px;
+}
+.prices .prices_card .dollar i
+{
+	color: #1f1f1f;
+	font-size: 18px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.prices .prices_card .dollar h2
+{
+	color: #000;
+	font-size: 55px;
+	font-weight: 700;
+	position: absolute;
+	top: 0;
+	left: 15px;
+}
+
+.prices .prices_card .dollar .bigger
+{
+	color: #00c3da;
+	font-size: 65px;
+	font-weight: 700;
+}
+
+.prices .prices_card .dollar .bigger_i
+{
+	color: #00c3da;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.prices .prices_card p
+{
+	color: #989898;
+}
+
+.prices .prices_card button
+{
+	width: 75px;
+	height: 40px;
+	background-color: #00c3da;
+	border: 1px solid #00c3da;
+	border-radius: 3px;
+	color: #fff;
+	margin-top: 15px;
+	opacity: 1;
+	transition: all .2s;
+	font-size: 12px;
+	font-weight: 700;
+}
+
+.prices hr
+{
+	padding: 0 20px 0 10px;
+	width: 75%;
+	margin-left: 0;
+}
+
+
+.best_value
+{
+	width: 75px;
+	height: 25px;
+	background-color: #00c3da;
+	border-radius: 30px;
+	text-align: center;
+	color: #fff;
+	font-size: 10px;
+	/*font-weight: 700;*/
+	line-height: 25px;
+	float: right;
+}

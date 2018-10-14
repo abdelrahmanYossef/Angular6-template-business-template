@@ -1,0 +1,38 @@
+
+.counter
+{
+	width: 100%;
+	height: 300px;
+	background-color: #1f1f1f;
+	margin-bottom: 100px;
+}
+
+.counter .adj
+{
+	padding-top: 60px;
+}
+
+.counter i
+{
+	color: #00c3da;
+	font-size: 40px;
+}
+
+.counter h2
+{
+	color: #fff;
+	font-size: 45px;
+	font-weight: 700;
+}
+
+.counter p
+{
+	color: #fff;
+	font-size: 16px;
+	/*font-weight: 700;*/
+}
+
+.line
+{
+	border-right: .5px solid rgba(255,255,255,0.2);
+}

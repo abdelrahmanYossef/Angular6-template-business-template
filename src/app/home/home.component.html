@@ -1,0 +1,57 @@
+
+<section id="home" class="home_page">
+	<div class=" heading_slider m-0">
+    
+    <ngx-slick-carousel class="carousel" 
+      #slickModal="slick-carousel" 
+      >
+          <div ngxSlickItem class="slide sliderbox">
+             
+              <div class="item1 m-0" [ngStyle]= "{ 'background-image': 'url(' + image + ')' }">
+                  <div class="overlay">
+                    <div class="heading_title1 text-center wow fadeIn">
+                      <h1>Get Awesome.</h1>
+                      <p>We are an innovative company making digital stuff.</p>
+                      <button class="first hvr-bob ">Read More</button>
+                      <button class="second hvr-bob">Contact</button>
+                    </div>
+                  </div>
+                </div>
+          </div>
+          <div ngxSlickItem class="slide sliderbox">
+                 
+              <div class="item2 m-0" [ngStyle]= "{ 'background-image' : 'url(' + image2 + ')' }">
+                  <div class="overlay">
+                    <div class="heading_title2 text-center wow fadeIn">
+                      <h1>Creat With Bezel.</h1>
+                      <p>We are an innovative company making digital stuff.</p>
+                      <button class="first hvr-bob ">Read More</button>
+                      <button class="second hvr-bob">Contact</button>
+                    </div>
+                  </div>
+                </div>
+          </div>
+    </ngx-slick-carousel>
+
+
+<div class="slider_nav">
+  <div class="left_nav customNextBtn" (click)="slickModal.slickPrev()"><i class="fas fa-arrow-left"></i></div>
+  <div class="right_nav customPrevBtn" (click)="slickModal.slickNext()"><i class="fas fa-arrow-right"></i></div>
+</div>
+
+
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+

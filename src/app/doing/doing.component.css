@@ -1,0 +1,62 @@
+
+
+.doing
+{
+	width: 100%;
+	height: 630px;
+	/* background-image: url(""); */
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 100px;
+}
+
+.doing .doing_icons
+{
+	padding-top: 150px;
+}
+
+.doing .doing_icons .sub_doing_icons i
+{
+	font-size: 60px;
+	color: #fff;
+	margin-bottom: 30px;
+}
+
+.doing .doing_icons h4
+{
+	color: #fff;
+	font-size: 15px;
+	letter-spacing: 1px;
+	font-weight: 400;
+}
+
+.doing .doing_desc
+{
+	margin-top: 100px;
+	color: #fff;
+}
+
+.doing .doing_desc ul
+{
+	list-style: none;
+}
+
+.doing .doing_desc ul li
+{
+	font-size: 14px;
+}
+
+.doing .doing_desc h2
+{
+	font-size: 40px;
+	font-weight: 900;
+	margin-bottom: 30px;
+}
+
+.overlay
+{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.5);
+}

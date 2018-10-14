@@ -1,0 +1,116 @@
+
+
+.contacts
+{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+	height: 500px;
+	background-color: #f7f7f7;
+	background-size:contain;
+	/*opacity: .8;*/
+	padding-top: 80px;
+}
+
+.contacts a
+{
+	text-decoration: none;
+	color: #6c6c6c;
+	font-size: 13px;
+}
+
+.contacts h6
+{	
+	color: #000;
+	font-size: 12px;
+	font-weight: 700;
+}
+
+.contacts p
+{	
+	color: #6c6c6c;
+	/*margin-top: 30px;*/
+}
+
+.sub_btn2
+{
+	/*width:90px;*/
+	height: 30px;
+	background-color: transparent;
+	border: 0.5px solid rgba(0,0,0,0.3);
+	color: #090909;
+	margin-top: 15px;
+	opacity: 1;
+	transition: all .2s;
+	font-size: 12px;
+	font-weight: 500;
+	padding: 0 15px; 
+	margin-right: 5px;
+}
+
+.sub_btn2:hover
+{
+	background-color: #00c3da;
+	color: #fff;
+	border: 0.5px solid #00c3da;
+}
+
+.contacts img
+{
+	width: 140px;
+	height: 60px;
+
+}
+
+
+.copy_right
+{
+	margin-top: 50px;
+	border-top: 0.4px solid rgba(0,0,0,0.2);
+}
+
+.copy_right .social_footer
+{
+	padding-top: 60px;
+}
+
+.copy_right .social_footer i
+{
+	color: #6c6c6c;
+	font-size: 20px;
+	opacity: .8;
+}
+
+.copy_right .social_footer p
+{
+	color: #6c6c6c;
+	font-size: 14px;
+	
+}
+
+.copy_right .social_footer a:hover .fa-linkedin-in
+{
+	color: #0077B5;
+}
+
+.copy_right .social_footer a:hover .fa-facebook-f
+{
+	color: #3B5998 ;
+}
+
+.copy_right .social_footer a:hover .fa-twitter
+{
+	color: #1DA1F2;
+}
+
+.copy_right .social_footer a:hover .fa-pinterest-p
+{
+	color: #BD081C;
+}
+
+.copy_right .social_footer a:hover .fa-instagram
+{
+	color: #1da1f2;
+}
