@@ -1,4 +1,6 @@
-# SliderTest
+# Profile template
+
+could be used as portfolio, company site or for personal business
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
 
